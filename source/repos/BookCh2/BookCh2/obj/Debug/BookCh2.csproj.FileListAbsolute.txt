@@ -1,0 +1,7 @@
+C:\Users\crazy\source\repos\BookCh2\BookCh2\bin\Debug\BookCh2.exe.config
+C:\Users\crazy\source\repos\BookCh2\BookCh2\bin\Debug\BookCh2.exe
+C:\Users\crazy\source\repos\BookCh2\BookCh2\bin\Debug\BookCh2.pdb
+C:\Users\crazy\source\repos\BookCh2\BookCh2\obj\Debug\BookCh2.csprojAssemblyReference.cache
+C:\Users\crazy\source\repos\BookCh2\BookCh2\obj\Debug\BookCh2.csproj.CoreCompileInputs.cache
+C:\Users\crazy\source\repos\BookCh2\BookCh2\obj\Debug\BookCh2.exe
+C:\Users\crazy\source\repos\BookCh2\BookCh2\obj\Debug\BookCh2.pdb

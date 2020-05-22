@@ -1,0 +1,10 @@
+C:\Users\crazy\source\repos\fun\fun\bin\Debug\fun.exe.config
+C:\Users\crazy\source\repos\fun\fun\bin\Debug\fun.exe
+C:\Users\crazy\source\repos\fun\fun\bin\Debug\fun.pdb
+C:\Users\crazy\source\repos\fun\fun\obj\Debug\fun.csprojAssemblyReference.cache
+C:\Users\crazy\source\repos\fun\fun\obj\Debug\fun.Form1.resources
+C:\Users\crazy\source\repos\fun\fun\obj\Debug\fun.Properties.Resources.resources
+C:\Users\crazy\source\repos\fun\fun\obj\Debug\fun.csproj.GenerateResource.cache
+C:\Users\crazy\source\repos\fun\fun\obj\Debug\fun.csproj.CoreCompileInputs.cache
+C:\Users\crazy\source\repos\fun\fun\obj\Debug\fun.exe
+C:\Users\crazy\source\repos\fun\fun\obj\Debug\fun.pdb

@@ -1,0 +1,7 @@
+C:\Users\crazy\source\repos\Book1.1\Book1.1\bin\Debug\Book1.1.exe.config
+C:\Users\crazy\source\repos\Book1.1\Book1.1\bin\Debug\Book1.1.exe
+C:\Users\crazy\source\repos\Book1.1\Book1.1\bin\Debug\Book1.1.pdb
+C:\Users\crazy\source\repos\Book1.1\Book1.1\obj\Debug\Book1.1.csprojAssemblyReference.cache
+C:\Users\crazy\source\repos\Book1.1\Book1.1\obj\Debug\Book1.1.csproj.CoreCompileInputs.cache
+C:\Users\crazy\source\repos\Book1.1\Book1.1\obj\Debug\Book1.1.exe
+C:\Users\crazy\source\repos\Book1.1\Book1.1\obj\Debug\Book1.1.pdb

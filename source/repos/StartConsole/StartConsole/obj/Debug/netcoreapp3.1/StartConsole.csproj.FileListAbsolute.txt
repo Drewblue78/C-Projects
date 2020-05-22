@@ -1,0 +1,13 @@
+C:\Users\crazy\source\repos\StartConsole\StartConsole\bin\Debug\netcoreapp3.1\StartConsole.exe
+C:\Users\crazy\source\repos\StartConsole\StartConsole\bin\Debug\netcoreapp3.1\StartConsole.deps.json
+C:\Users\crazy\source\repos\StartConsole\StartConsole\bin\Debug\netcoreapp3.1\StartConsole.runtimeconfig.json
+C:\Users\crazy\source\repos\StartConsole\StartConsole\bin\Debug\netcoreapp3.1\StartConsole.runtimeconfig.dev.json
+C:\Users\crazy\source\repos\StartConsole\StartConsole\bin\Debug\netcoreapp3.1\StartConsole.dll
+C:\Users\crazy\source\repos\StartConsole\StartConsole\bin\Debug\netcoreapp3.1\StartConsole.pdb
+C:\Users\crazy\source\repos\StartConsole\StartConsole\obj\Debug\netcoreapp3.1\StartConsole.csprojAssemblyReference.cache
+C:\Users\crazy\source\repos\StartConsole\StartConsole\obj\Debug\netcoreapp3.1\StartConsole.csproj.CoreCompileInputs.cache
+C:\Users\crazy\source\repos\StartConsole\StartConsole\obj\Debug\netcoreapp3.1\StartConsole.AssemblyInfoInputs.cache
+C:\Users\crazy\source\repos\StartConsole\StartConsole\obj\Debug\netcoreapp3.1\StartConsole.AssemblyInfo.cs
+C:\Users\crazy\source\repos\StartConsole\StartConsole\obj\Debug\netcoreapp3.1\StartConsole.dll
+C:\Users\crazy\source\repos\StartConsole\StartConsole\obj\Debug\netcoreapp3.1\StartConsole.pdb
+C:\Users\crazy\source\repos\StartConsole\StartConsole\obj\Debug\netcoreapp3.1\StartConsole.genruntimeconfig.cache

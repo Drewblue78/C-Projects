@@ -1,0 +1,6 @@
+C:\Users\crazy\source\repos\HelloWorldProgram\HelloWorldProgram\bin\Release\HelloWorldProgram.exe.config
+C:\Users\crazy\source\repos\HelloWorldProgram\HelloWorldProgram\bin\Release\HelloWorldProgram.exe
+C:\Users\crazy\source\repos\HelloWorldProgram\HelloWorldProgram\bin\Release\HelloWorldProgram.pdb
+C:\Users\crazy\source\repos\HelloWorldProgram\HelloWorldProgram\obj\Release\HelloWorldProgram.csproj.CoreCompileInputs.cache
+C:\Users\crazy\source\repos\HelloWorldProgram\HelloWorldProgram\obj\Release\HelloWorldProgram.exe
+C:\Users\crazy\source\repos\HelloWorldProgram\HelloWorldProgram\obj\Release\HelloWorldProgram.pdb
