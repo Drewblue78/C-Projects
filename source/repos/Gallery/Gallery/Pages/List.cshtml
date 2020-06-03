@@ -1,0 +1,32 @@
+﻿@page
+@model Gallery.Pages.ListModel
+@{
+    ViewData["Title"] = "List";
+}
+
+<div class="text-center">
+    <table class="table">
+        <thread>
+            <tr>
+                <td>GroceryList</td>
+                <td>Complete</td>
+                <td></td>
+            </tr>
+        </thread>
+        <tbody>
+            @foreach (var Groceries in Model.Groceries) 
+            <tr>
+                <td>@Goceries.text</td>
+                    @if (Groceries.complete) {
+                        <td>X</td>
+                    }else {
+                        <td>[]</td>
+                    }
+                <td>
+                    <button class="btn-info">Edit</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+

@@ -1,0 +1,54 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+    <div class="text-center">
+        <div class="text-center">
+            <form method="post" enctype="multipart/form-data">
+                <input name="uploader" placeholder="your name" />
+                <input name="UploadedFile" type="file" asp-for="UploadedFile" />
+                <input type="submit" />
+            </form>
+            <div class="list-group">
+                @foreach (var f in Model.fileList) {
+                    <a href="/uploads/@f.name" class="list-group-item list-group-item-action">@f.name</a>
+                    @if (f.isImage) {
+                        <img class="uploaded" src="uploads/@f.name" />
+                    }
+
+                }
+            </div>
+        </div>
+    </div>
+
+
+        <div class="row row-cols-1 row-cols-md-2">
+
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="Art1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Art from Wantosavant page</h5>
+                        <p class="card-text">These pieces come from my facebook page</p>
+                        <a href="https://www.facebook.com/Wantosavant" class="btn btn-primary">Wantosavant on facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="Graph1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pictures from #UrbanArt group</h5>
+                        <p class="card-text">There are more pictures on my facebook group</p>
+                        <a href="https://www.facebook.com/groups/1377515325760033" class="btn btn-primary">#UrbanArt on facebook</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+            <!-- Navbar content -->
+        </nav>
+        <p>Come see me on Facebook <a href="https://www.facebook.com/andrew.power.5686">Andrew Power</a>.</p>
+        <p>Follow me on Twitter <a href="https://twitter.com/Wantosavant1">Wantosavant1</a>.</p>
