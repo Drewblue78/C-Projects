@@ -5,25 +5,30 @@
 }
 
     <div class="text-center">
-        <div class="text-center">
-            <form method="post" enctype="multipart/form-data">
-                <input name="uploader" placeholder="your name" />
-                <input name="UploadedFile" type="file" asp-for="UploadedFile" />
-                <input type="submit" />
-            </form>
-            <div class="list-group">
-                @foreach (var f in Model.fileList) {
-                    <a href="/uploads/@f.name" class="list-group-item list-group-item-action">@f.name</a>
-                    @if (f.isImage) {
-                        <img class="uploaded" src="uploads/@f.name" />
-                    }
-
-                }
+        <br />
+        <div class="card">
+            <div class=" card-body">
+                <form id="loginForm">
+                    <input name="username" value="Joan" class="form-control" />
+                    <input name="password" value="Paul" type="text" class="form-control" />
+                </form>
+                <button class="btn btn-success">Login</button>
             </div>
         </div>
-    </div>
 
+        <div class="card">
+            <div class=" card-body">
+                <form id="registerForm">
+                    <input name="username" value="Joan" class="form-control"/>
+                    <input name="password" value="Paul" type ="text" class="form-control"/>
+                    <input id="passwordConfirm" value="Paul" type ="text" class="form-control"/>
 
+                </form>
+                <button class="btn btn-success">Register</button>
+            </div>
+        </div>
+
+        <br />
         <div class="row row-cols-1 row-cols-md-2">
 
             <div class="col mb-4">
@@ -47,8 +52,29 @@
                 </div>
             </div>
         </div>
-        <nav class="navbar navbar-dark bg-dark">
-            <!-- Navbar content -->
-        </nav>
-        <p>Come see me on Facebook <a href="https://www.facebook.com/andrew.power.5686">Andrew Power</a>.</p>
-        <p>Follow me on Twitter <a href="https://twitter.com/Wantosavant1">Wantosavant1</a>.</p>
+        <br />
+        <br />
+        <div class="text-center">
+            <p>Please upload a file here</p>
+            <form method="post" enctype="multipart/form-data">
+                <input name="uploader" placeholder="Your Name" />
+                <input name="UploadedFile" type="file" asp-for="UploadedFile" />
+                <input type="submit" />
+            </form>
+            <div class="list-group">
+                @foreach (var f in Model.FileList) {
+                    <a href="/uploads/@f.Name" class="list-group-item list-group-item-action">@f.Name</a>
+                    @if (Model.isImage(f)) {
+
+                        <img class="uploaded" src="uploads/@f.Name" />
+                    }
+                }
+            </div>
+        </div>
+    </div>
+
+<nav class="navbar navbar-dark bg-dark">
+    <!-- Navbar content -->
+</nav>
+<p>Come see me on Facebook <a href="https://www.facebook.com/andrew.power.5686">Andrew Power</a>.</p>
+<p>Follow me on Twitter <a href="https://twitter.com/Wantosavant1">Wantosavant1</a>.</p>

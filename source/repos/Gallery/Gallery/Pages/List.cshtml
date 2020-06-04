@@ -3,29 +3,40 @@
 @{
     ViewData["Title"] = "List";
 }
-
+    <form class="card" method="post" action="/Add">
+        @Html.AntiForgeryToken()
+        <div class="card-body">
+            <input class="form-control"
+                   name="text"
+                   maxlength="50"
+                   placeholder="new todo item" />
+            <br />
+            <input class="btn btn-success" type="submit" />
+        </div>
+    </form>
 <div class="text-center">
-    <table class="table">
+    <table class="table">   
         <thread>
             <tr>
-                <td>GroceryList</td>
+                <td>Video Games</td>
                 <td>Complete</td>
                 <td></td>
             </tr>
         </thread>
         <tbody>
-            @foreach (var Groceries in Model.Groceries) 
+            @foreach (var grocery in Model.Groceries) {
             <tr>
-                <td>@Goceries.text</td>
-                    @if (Groceries.complete) {
+                <td>@grocery.text</td>
+                    @if (grocery.complete) {
                         <td>X</td>
-                    }else {
+                    } else {
                         <td>[]</td>
                     }
                 <td>
                     <button class="btn-info">Edit</button>
                 </td>
             </tr>
+            }
         </tbody>
     </table>
 </div>

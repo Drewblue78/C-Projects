@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Gallery.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -9,11 +10,11 @@ namespace Gallery.Pages
 {
     public class ListModel : PageModel
     {
-        private HttpListenerContext db;
+        private ListContext db;
         public List<GroceriesItem> Groceries = new List<GroceriesItem>();
 
-        public IndexModel(ListContext db) {
-
+        public ListModel(ListContext db) {
+            this.db = db;
         }
 
 
