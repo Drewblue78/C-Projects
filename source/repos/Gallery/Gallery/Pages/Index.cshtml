@@ -3,14 +3,19 @@
 @{
     ViewData["Title"] = "Home page";
 }
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+    </nav>
 
     <div class="text-center">
         <br />
         <div class="card">
             <div class=" card-body">
                 <form id="loginForm">
-                    <input name="username" value="Joan" class="form-control" />
-                    <input name="password" value="Paul" type="text" class="form-control" />
+                    <input name="username" value="username" class="form-control" />
+                    <input name="password" value="password" type="text" class="form-control" />
                 </form>
                 <button class="btn btn-success">Login</button>
             </div>
@@ -19,9 +24,9 @@
         <div class="card">
             <div class=" card-body">
                 <form id="registerForm">
-                    <input name="username" value="Joan" class="form-control"/>
-                    <input name="password" value="Paul" type ="text" class="form-control"/>
-                    <input id="passwordConfirm" value="Paul" type ="text" class="form-control"/>
+                    <input name="username" value="" class="form-control"/>
+                    <input name="password" value="" type ="text" class="form-control"/>
+                    <input id="passwordConfirm" value="" type ="text" class="form-control"/>
 
                 </form>
                 <button class="btn btn-success">Register</button>
@@ -37,7 +42,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Art from Wantosavant page</h5>
                         <p class="card-text">These pieces come from my facebook page</p>
-                        <a href="https://www.facebook.com/Wantosavant" class="btn btn-primary">Wantosavant on facebook</a>
+                        <a href="https://www.facebook.com/Wantosavant"target="_blank" class="btn btn-primary">Wantosavant on facebook</a>
                     </div>
                 </div>
             </div>
@@ -47,7 +52,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Pictures from #UrbanArt group</h5>
                         <p class="card-text">There are more pictures on my facebook group</p>
-                        <a href="https://www.facebook.com/groups/1377515325760033" class="btn btn-primary">#UrbanArt on facebook</a>
+                        <a href="https://www.facebook.com/groups/1377515325760033"target="_blank" class="btn btn-primary">#UrbanArt on facebook</a>
                     </div>
                 </div>
             </div>
@@ -72,7 +77,7 @@
             </div>
         </div>
     </div>
-
+<br />
 <nav class="navbar navbar-dark bg-dark">
     <!-- Navbar content -->
 </nav>
